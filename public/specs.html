@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JasmineDemo</title>
+    <link href="/stylesheets/jquery-ui.css?1316410345" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/scaffold.css?1316410345" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/jasmine.css?1316410345" media="screen" rel="stylesheet" type="text/css" />
+
+    <script src="/javascripts/lib/jquery-1.6.2.min.js?1316410345" type="text/javascript"></script>
+    <script src="/javascripts/lib/jquery-ui.min.js?1316410345" type="text/javascript"></script>
+    <script src="/javascripts/lib/json2.js?1316410345" type="text/javascript"></script>
+    <script src="/javascripts/lib/underscore.js?1316410345" type="text/javascript"></script>
+    <script src="/javascripts/lib/backbone.js?1316410345" type="text/javascript"></script>
+    <script src="/javascripts/lib/ICanHaz.js?1316410345" type="text/javascript"></script>
+    <script src="/javascripts/lib/handlebars-0.9.0.pre.4.js?1316410345" type="text/javascript"></script>
+    <script src="/javascripts/application.js?1316410345" type="text/javascript"></script>
+
+    <script src="/javascripts/lib/jasmine-1.0.2/jasmine.js?1316410345" type="text/javascript"></script>
+    <script src="/javascripts/lib/jasmine-1.0.2/jasmine-html.js?1316410345" type="text/javascript"></script>
+    <script src="/javascripts/specs/helpers/specHelper.js?1316410345" type="text/javascript"></script>
+    <script src="/javascripts/specs/mocks/specMocks.js?1316410345" type="text/javascript"></script>
+    <script src="/javascripts/specs/onLoadSpec.js?1316410345" type="text/javascript"></script>
+  </head>
+  <body>
+    <div id="main"></div>
+    <input type="button" id="button" value="Click Me"></input>
+  </body>
+  <script type="text/javascript">
+    jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
+    jasmine.getEnv().execute();
+  </script>
+  
+  </html>

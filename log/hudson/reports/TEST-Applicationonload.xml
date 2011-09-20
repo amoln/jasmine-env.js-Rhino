@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="Application on load" errors="0" tests="1" failures="0" time="0.143" timestamp="2011-09-19T22:41:47">
+  <testcase classname="Application on load" name="should show the Hello World message" time="0.044"></testcase>
+</testsuite>
+<testsuite name="Application on load.On click of button" errors="0" tests="1" failures="0" time="0.097" timestamp="2011-09-19T22:41:47">
+  <testcase classname="Application on load.On click of button" name="should change the message" time="0.096"></testcase>
+</testsuite>
+</testsuites>
